@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(135deg, #f8d9ff, #ffe6f3); /* fundo lilás-rosinha */
+    color: #4b006e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculadora {
+    background: linear-gradient(160deg, #fff0ff, #ffe6f9);
+    padding: 25px;
+    border-radius: 25px;
+    width: 330px;
+    text-align: center;
+    border: 2px solid #f3d1ff;
+}
+
+.calculadora h2 {
+    margin-bottom: 20px;
+    color: #ff7eb9;
+    text-shadow: none;
+    font-weight: 600;
+}
+
+input#display {
+    width: 90%;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    background-color: #fff7ff;
+    color: #4b006e;
+    text-align: center;
+    box-shadow: inset 0 0 6px #e3b8ff;
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.botoes button {
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #d6a7ff, #ffb6e6);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: none;
+}
+
+.botoes button:hover {
+    background: linear-gradient(135deg, #c487ff, #ff9fd8);
+    transform: scale(1.08);
+}
+
+#resultado {
+    margin-top: 20px;
+    text-align: left;
+    background: linear-gradient(135deg, #fff5ff, #ffeef8);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: inset 0 0 8px #e3b8ff;
+    color: #4b006e;
+}
+
+#resultado p {
+    margin: 8px 0;
+}
